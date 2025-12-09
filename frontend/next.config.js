@@ -6,20 +6,21 @@ const nextConfig = {
   // Optimize images (if you add image support later)
   images: {
     domains: [],
+    unoptimized: true, // Required for static export
   },
 
   // Code splitting configuration
   // Automatically splits code for better performance
-  experimental: {
-    // Enable modern bundling
-    optimizeCss: true,
-  },
+  // Note: optimizeCss removed as it requires critters dependency
 
   // Compress responses
   compress: true,
 
   // Production optimizations
   swcMinify: true,
+
+  // Static export (uncomment for static site generation)
+  // output: 'export',
 
   // Environment variables that should be exposed to the browser
   env: {
