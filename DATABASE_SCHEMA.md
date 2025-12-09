@@ -46,7 +46,7 @@ This document describes the database schemas used in the Note Taking App.
   "_id": "507f1f77bcf86cd799439011",
   "email": "user@example.com",
   "password": "$2b$10$hashedpassword...",
-  "name": "John Doe",
+  "name": "Royal",
   "createdAt": "2025-12-09T10:00:00.000Z",
   "updatedAt": "2025-12-09T10:00:00.000Z"
 }
@@ -217,7 +217,7 @@ This document describes the database schemas used in the Note Taking App.
 {
   id: "507f1f77bcf86cd799439011",
   email: "user@example.com",
-  name: "John Doe",
+  name: "Royal",
   token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 }
 ```
