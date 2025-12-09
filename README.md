@@ -385,7 +385,7 @@ Content-Type: application/json
 {
   "email": "user@example.com",
   "password": "password123",
-  "name": "John Doe"
+  "name": "Royal"
 }
 ```
 
@@ -396,7 +396,7 @@ Content-Type: application/json
   "user": {
     "id": "user-id",
     "email": "user@example.com",
-    "name": "John Doe"
+    "name": "Royal"
   }
 }
 ```
@@ -427,7 +427,7 @@ Authorization: Bearer <token>
 {
   "id": "user-id",
   "email": "user@example.com",
-  "name": "John Doe"
+  "name": "Royal "
 }
 ```
 
